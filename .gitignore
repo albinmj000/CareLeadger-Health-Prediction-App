@@ -1,0 +1,23 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Local patient data and SQLite files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit and editor artifacts
+.streamlit/secrets.toml
+.vscode/
+*.log
